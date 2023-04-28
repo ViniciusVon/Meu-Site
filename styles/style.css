@@ -19,6 +19,7 @@ body {
     box-sizing: border-box;
     background-color: var(--cor-primaria);
     color: var(--cor-secundaria);
+    min-height: 100vh;
 }
  
 .cabecalho{
@@ -98,8 +99,7 @@ body {
 }
 
 .apresentacao__links__navegacao:hover{
-    background-color: var(--cor-hover);
-    padding: 3%;
+    background-color: var(--cor-hover);  
 }
 
 .apresentacao__imagem{
@@ -115,6 +115,10 @@ body {
     font-family: var(--fonte-montserrat);
     font-size: 1.5rem;
     font-weight: 400;
+    margin-top: auto;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
     /* display: flex; */
     /* justify-content: center; */
 }
